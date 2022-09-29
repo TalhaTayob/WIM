@@ -1,0 +1,4 @@
+The problem was solved by two methods. The first solution was done by adding all possible distnaces to list. The distances where then normalized to value between 0 and 5.
+Th list of distances were sorted from smallest to longest and a value was assigned based on the normalised value and the frequency of the other attached node to that specific
+distance if it had a frequency. A scoring method was made by modelling the expected results (differences of frequency betweem nodes and their distance). The second solution
+was made by generating random frequencies and seeing which combination yielded the best scoring result.
